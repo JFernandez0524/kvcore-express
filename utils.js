@@ -20,13 +20,13 @@ async function getContacts() {
     console.log(error);
   }
 
-  axios(config)
-    .then(function (response) {
-      console.log(JSON.stringify(response.data.total));
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+  // axios(config)
+  //   .then(function (response) {
+  //     console.log(JSON.stringify(response.data.total));
+  //   })
+  //   .catch(function (error) {
+  //     console.log(error);
+  //   });
 }
 
 export default getContacts;
